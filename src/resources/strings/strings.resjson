@@ -1,0 +1,13 @@
+{
+    "//": "manifest section",
+    "Microsoftwacnext_Manifest_displayName": "wacnext",
+    "Microsoftwacnext_Manifest_description": "{!product-description}",
+    "Microsoftwacnext_Manifest_keywords": "SME",
+
+    "//": "wacnext",
+    "Microsoftwacnext_title": "wacnext",
+
+    "//": "about",
+    "Microsoftwacnext_about": "{!product-about}",
+    "Microsoftwacnext_aboutDescription": "{!product-about-description}"
+}

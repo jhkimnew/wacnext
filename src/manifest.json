@@ -1,0 +1,198 @@
+{
+  "$schema": "../node_modules/@microsoft/windows-admin-center-sdk/core/manifest/module-schema.json#",
+  "name": "microsoft.wacnext",
+  "displayName": "resources:strings:displayName",
+  "description": "resources:strings:description",
+  "target": "/modules/microsoft.wacnext",
+  "icon": "sme-icon:icon-win-powerShell",
+  "keywords": [
+    "resources:strings:keywords"
+  ],
+  "entryPoints": [
+    {
+      "entryPointType": "tool",
+      "name": "main",
+      "urlName": "wacnext",
+      "displayName": "resources:strings:displayName",
+      "description": "resources:strings:description",
+      "icon": "sme-icon:icon-win-powerShell",
+      "path": "",
+      "requirements": [
+        {
+          "solutionIds": [
+            "msft.sme.server-manager!servers",
+            "msft.sme.server-manager!windowsClients",
+            "msft.sme.developer-tools!main"
+          ],
+          "connectionTypes": [
+            "msft.sme.connection-type.server",
+            "msft.sme.connection-type.windows-client"
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "locale": "default",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "cs-CZ",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "de-DE",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "en-US",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "es-ES",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "fr-FR",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "hu-HU",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "it-IT",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "ja-JP",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "ko-KR",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "nl-NL",
+      "strings": {
+        "keyword-example": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "pl-PL",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "pl-PL",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "pt-BR",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "pt-PT",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "ru-RU",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "sv-SE",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "tr-TR",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "zh-CN",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    },
+    {
+      "locale": "zh-TW",
+      "strings": {
+        "keywords": "example",
+        "description": "{!product-description}",
+        "displayName": "wacnext"
+      }
+    }
+  ],
+  "powerShellModuleName": "{!company-name}.{!module-name}"
+}

@@ -1,0 +1,4 @@
++ tsutils@3.9.1
+added 3 packages from 1 contributor, updated 1 package and audited 56901 packages in 13.222s
+found 12 vulnerabilities (7 low, 1 moderate, 4 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
