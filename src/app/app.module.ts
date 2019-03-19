@@ -16,10 +16,9 @@ import {
 } from '@microsoft/windows-admin-center-sdk/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { JhkimPortalComponent } from './jhkim-portal/jhkim-portal.component';
 import { HomeComponent } from './home/home.component';
+import { JhkimPortalComponent } from './jhkim-portal/jhkim-portal.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
     declarations: [
@@ -40,22 +39,6 @@ import { RouterModule } from '@angular/router';
         GuidedPanelModule,
         IdleModule,
         AppRoutingModule,
-        RouterModule.forRoot(
-            [
-              {
-                path: '',
-                component: HomeComponent
-              },
-              {
-                path: 'test',
-                component: JhkimPortalComponent
-              },
-              {
-                path: '**',
-                component: NotFoundComponent
-              }
-            ]
-            )
     ],
     providers: [
         ResourceService,

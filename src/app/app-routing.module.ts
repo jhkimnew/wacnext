@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { IdleComponent } from '@microsoft/windows-admin-center-sdk/angular';
 import { DefaultModule } from './default/default.module';
+import { JhkimPortalComponent } from './jhkim-portal/jhkim-portal.component';
+import { HomeComponent } from './home/home.component';
 
 // These are the basic routes that are required in order to load an extension and make service calls.
 const appRoutes: Routes = [
@@ -14,6 +16,14 @@ const appRoutes: Routes = [
     {
         path: '',
         loadChildren: './default/default.module#DefaultModule'
+    },
+    { 
+        path: 'home', 
+        component: HomeComponent 
+    },
+    { 
+        path: 'test', 
+        component: JhkimPortalComponent 
     },
     // this child route is used to route back to the home path when an invalid URL is provided to the browser.
     {
