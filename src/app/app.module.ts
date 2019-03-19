@@ -17,11 +17,16 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JhkimPortalComponent } from './jhkim-portal/jhkim-portal.component';
+import { HomeComponent } from './home/home.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
     declarations: [
         AppComponent,
-        JhkimPortalComponent
+        JhkimPortalComponent,
+        HomeComponent,
+        NotFoundComponent
     ],
     imports: [
         CoreServiceModule,
@@ -34,7 +39,23 @@ import { JhkimPortalComponent } from './jhkim-portal/jhkim-portal.component';
         LoadingWheelModule,
         GuidedPanelModule,
         IdleModule,
-        AppRoutingModule
+        AppRoutingModule,
+        RouterModule.forRoot(
+            [
+              {
+                path: '',
+                component: HomeComponent
+              },
+              {
+                path: 'test',
+                component: JhkimPortalComponent
+              },
+              {
+                path: '**',
+                component: NotFoundComponent
+              }
+            ]
+            )
     ],
     providers: [
         ResourceService,

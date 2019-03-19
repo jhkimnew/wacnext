@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-jhkim-portal',
+  selector: 'jhkim-portal',
   templateUrl: './jhkim-portal.component.html',
   styleUrls: ['./jhkim-portal.component.css']
 })
