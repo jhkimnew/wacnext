@@ -13,15 +13,15 @@ import { Routing } from './default.routing';
 })
 export class DefaultModule implements OnInit {
   constructor() {
-    console.log("constructor");
+    console.log('constructor');
     this.InitContext();
   }
 
   ngOnInit() {
-    console.log("ngOnInit");
+    console.log('ngOnInit');
   }
 
   public InitContext(): void  {
-    console.log("InitContext");
+    console.log('InitContext');
   }
 }

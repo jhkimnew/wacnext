@@ -16,10 +16,12 @@ import {
 } from '@microsoft/windows-admin-center-sdk/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { JhkimPortalComponent } from './jhkim-portal/jhkim-portal.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        JhkimPortalComponent
     ],
     imports: [
         CoreServiceModule,

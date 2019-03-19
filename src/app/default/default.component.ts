@@ -1,4 +1,4 @@
-import { Component, OnInit, Injector } from '@angular/core';
+import { Component, Injector, OnInit } from '@angular/core';
 import { JhkimserviceService } from 'src/jhkimservice.service';
 
 @Component({
@@ -7,7 +7,7 @@ import { JhkimserviceService } from 'src/jhkimservice.service';
   styleUrls: ['./default.component.css']
 })
 export class DefaultComponent {
-  constructor(private data: JhkimserviceService, private injector: Injector, ) { 
+  constructor(private data: JhkimserviceService, private injector: Injector, ) {
     console.log('Constructor');
     this.initContext();
   }
@@ -16,7 +16,7 @@ export class DefaultComponent {
     let result = this.data.callMe('test data');
     console.log(result);
 
-    let temp2 = this.injector.get(JhkimserviceService);
+    const temp2 = this.injector.get(JhkimserviceService);
     result = temp2.callMe('test data2');
     console.log(result);
   }
